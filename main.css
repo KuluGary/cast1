@@ -1,0 +1,90 @@
+body {
+    background-image: url("https://static.tumblr.com/8c0583f7844d3378722426906de44811/sshc6o7/z7Kozf8kw/tumblr_static_8ll7ph5hrxoo0c80g88ks800k.png");
+    font: 1em/1.75em PT Serif;
+    color: #181818;
+    margin: 0;
+}
+
+#header h1{
+    position: relative;
+    margin: 0;
+    padding-top: 0px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+header#masthead{
+    background-size: cover;
+    background: #101010 url(http://static.tumblr.com/68ae23aaebdb44112aceb20b340b2535/sshc6o7/LZ3omf1es/tumblr_static_1j3o9pczojs0gkcoc0w8g8osw.png) no-repeat top center;
+    text-align: center;
+}
+
+header#masthead, nav#access{
+    max-width: 100%;
+}
+
+.wrapper, header#masthead, nav#access{
+    margin: 0 auto;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{
+    display: block;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+nav#access {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 0 0 rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,.05);
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+nav#access .wrapper {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-size: 80%;
+    background-color: #000;
+}
+
+nav#access ul {
+    line-height: 1em;
+    margin-right: 3.8em;
+}
+
+nav#access ul li a:link{
+    color: #dfdfdf;
+}
+
+nav#access ul li{
+    letter-spacing: .075em;
+    font: .75em;
+}
+
+nav#access ul li{
+    display: inline;
+letter-spacing: .075em;
+font-size: .75em;
+}
+
+nav#access ul li a{
+    padding: .75em;
+}
+
+nav#access .wrapper > ul{
+    display: inline !important;
+}
